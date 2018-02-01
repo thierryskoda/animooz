@@ -1,0 +1,30 @@
+{
+  "name": "animooz",
+  "version": "0.0.1",
+  "description": "Render props component to animate a component based on current scrolling location",
+  "main": "build/index.js",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-motion": "^0.5.2",
+    "react-track": "^0.4.4",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Thierry Skoda",
+    "email": "skodathierry@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
